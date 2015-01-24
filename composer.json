@@ -1,0 +1,32 @@
+{
+    "name": "campaignchain/location-citrix",
+    "description": "Holds information about a Citrix Location and user.",
+    "type": "campaignchain-location",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Sandro Groganz",
+            "email": "sandro@campaignchain.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": { "CampaignChain\\Location\\CitrixBundle\\": "" }
+    },
+    "extra": {
+        "campaignchain": {
+            "kernel": {
+                "classes": [
+                    "CampaignChain\\Location\\CitrixBundle\\CampaignChainLocationCitrixBundle"
+                ],
+                "routing":
+                {
+                    "name": "campaignchain_location_citrix",
+                    "resource": "@CampaignChainLocationCitrixBundle/Resources/config/routing.yml",
+                    "prefix": "/"
+                }
+            }
+        }
+    }
+}
