@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "campaignchain/channel-citrix": "1.0.0-beta.1"
+        "campaignchain/channel-citrix": "dev-master"
     },
     "autoload": {
         "psr-4": { "CampaignChain\\Location\\CitrixBundle\\": "" }
