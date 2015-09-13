@@ -1,6 +1,6 @@
 {
     "name": "campaignchain/location-citrix",
-    "description": "Holds information about a Citrix Location and user.",
+    "description": "Holds information about a GoToWebinar Location and Citrix user.",
     "keywords": ["gotowebinar","campaignchain"],
     "type": "campaignchain-location",
     "license": "Apache-2.0",
