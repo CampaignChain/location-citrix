@@ -16,7 +16,7 @@
         "docs": "http://doc.campaignchain.com"
     },
     "require": {
-        "campaignchain/channel-citrix": "1.0.0-beta.2"
+        "campaignchain/channel-citrix": "dev-master"
     },
     "autoload": {
         "psr-4": { "CampaignChain\\Location\\CitrixBundle\\": "" }
