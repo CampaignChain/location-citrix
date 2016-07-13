@@ -8,5 +8,9 @@
 modules:
     campaignchain-citrix-user:
         display_name: Citrix user
+        channels:
+            - campaignchain/channel-citrix/campaignchain-gotowebinar
     campaignchain-gotowebinar:
         display_name: GoToWebinar
+        channels:
+            - campaignchain/channel-citrix/campaignchain-gotowebinar
