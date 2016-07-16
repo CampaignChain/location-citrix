@@ -17,8 +17,13 @@
 
 namespace CampaignChain\Location\CitrixBundle;
 
+use CampaignChain\Location\CitrixBundle\DependencyInjection\CampaignChainLocationCitrixExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class CampaignChainLocationCitrixBundle extends Bundle
 {
+    public function getContainerExtension()
+    {
+        return new CampaignChainLocationCitrixExtension();
+    }
 }
